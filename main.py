@@ -123,17 +123,17 @@ class MainClass(object):
 
         self.last_save = time.time()
 
-        print('READ')
-        print('READ')
-        print('USERS:', self.data['users'])
-        print('REGULAR:', self.data['files']['regular'])
-        print('LEN REGULAR:', len(self.data['files']['regular']))
-        print('MAIN:', self.data['files']['main'])
-        print('LEN MAIN:', len(self.data['files']['main']))
-        print('BASIC:', self.data['files']['basic'])
-        print('LEN BASIC:', len(self.data['files']['basic']))
-        print('READ')
-        print('READ')
+        #print('READ')
+        #print('READ')
+        #print('USERS:', self.data['users'])
+        #print('REGULAR:', self.data['files']['regular'])
+        #print('LEN REGULAR:', len(self.data['files']['regular']))
+        #print('MAIN:', self.data['files']['main'])
+        #print('LEN MAIN:', len(self.data['files']['main']))
+        #print('BASIC:', self.data['files']['basic'])
+        #print('LEN BASIC:', len(self.data['files']['basic']))
+        #print('READ')
+        #print('READ')
 
         #Obtain bot token from config
         token = config['bot']['token']
